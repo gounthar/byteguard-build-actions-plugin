@@ -16,15 +16,11 @@ import javax.servlet.ServletException;
 import java.io.IOException;
 import jenkins.tasks.SimpleBuildStep;
 import org.jenkinsci.Symbol;
-import org.kohsuke.stapler.DataBoundSetter;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.Proxy;
-import java.net.InetSocketAddress;
-import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
 
 public class BytegaurdActionBuilder extends Builder implements SimpleBuildStep {
